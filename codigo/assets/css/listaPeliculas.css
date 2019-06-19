@@ -1,0 +1,161 @@
+body{
+    	background-color: #E3E3E3;
+    }
+	.container{
+		background-color: #fcfcfc;
+		margin-top: 2%;
+		border-radius: 5px;
+		padding: 1%;
+		margin-bottom: 2%;
+	}
+	.imagenes{
+		margin-top: 2%;
+		width:90%;
+		display:inline-block;
+		margin-left: 15%;
+		border-radius: 5px;
+		border:2px solid black;
+	}
+	.card-img-top{
+		height: 100%;
+		width: 100%;
+	}
+	.card{
+		width: 20%;
+		display: inline-block;
+		padding: 1%;
+		margin:1%;
+	}
+	.contenedor{
+		display: inline-block;
+	}
+	.btn-admin{
+	background-color: red;
+	}
+	.contenedor{
+		background-color: #fdffee;
+		border-radius:5px;
+		margin-top: 30px;
+		margin-bottom: 100px;
+		margin-left: 120px;
+		margin-right: 120px;
+		padding: 15px;
+		height: 80%;
+    }
+    #fotoPerf{
+    	float:right;
+    	position:relative;
+    	margin-right: 30px;
+    	margin-top: 10px;
+    	border:7px solid black;
+    	border-radius: 50%;
+    }
+    .card{
+    	display: inline-block;
+    	margin:15px; 
+    }
+    .completada{
+    	width: 15px;
+    	height: 15px;
+    	border-radius: 50%;
+    	background-color:#5cb85c;
+    	display: inline-block;
+    }
+    .pausa{
+    	width: 15px;
+    	height: 15px;
+    	border-radius: 50%;
+    	background-color:#ffc107  ;
+    	display: inline-block;
+    }
+    .dejada{
+    	width: 15px;
+    	height: 15px;
+    	border-radius: 50%;
+    	background-color:#d9534f;
+    	display: inline-block;
+    }
+    .futuro{
+    	width: 15px;
+    	height: 15px;
+    	border-radius: 50%;
+    	background-color:#428bca;
+    	display: inline-block;
+		}
+		/*CSS PARA LA LISTA DE PELÍCULAS, SERIES Y DEMÁS*/
+		.tabla{
+			width: 75%;
+			height: auto;
+			background-color: white; 
+			border-radius: 5px;
+			display:inline-block;
+		}
+		
+		.principalSerie{
+			width:100%;
+			display: flex;
+			/*border:solid;*/
+		}
+		.principalSerie_section-1{
+			background: #E3E3E3;
+			border-radius:15px;
+			/*background: red;*/
+			width: 100%;
+		}
+		.principalSerie_section-2{
+			width:25%;
+			background: #E3E3E3;
+			border-left: 8px solid white;
+			border-radius:15px;
+			padding:15px;
+			float:right;
+			/*border:solid;*/
+			/*background: blue;*/
+		}
+		
+		.principalSerie_section-2 h4{
+			margin: 30px;
+		}
+		.principalSerie_section-2 ul li{
+			margin-bottom: 15px;
+			list-style: none;
+		}
+		
+		.dvSerie{
+				margin: 1%;
+		}
+		
+		.imgDvSerie{
+			border:solid;
+				margin: auto;
+				height:210px;
+		}
+		
+		/*.dvSerie select{
+				margin-top:-95px;
+				margin-left: -43px;
+		}*/
+		.dvSerie select{
+				margin-top:-95px;
+				margin-left: -43px;
+		}
+		
+		.btnTitulo h4{
+				color: black;
+				text-align: center;
+		}
+		.btnTitulo h4:hover{
+			text-decoration: underline;
+		}
+		.containerSeries{
+				display: flex;
+				flex-wrap: wrap;
+				width: 115%;
+		}
+		.btnTitulo{
+			background-color: transparent;
+			border: none;
+			outline:none;
+			text-align:center;
+			width: 100%;
+		}
